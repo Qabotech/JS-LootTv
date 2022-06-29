@@ -22,5 +22,9 @@ el.click();
 
 setInterval(function() {
   location.reload()
-}, 45 * 1000);
+}, 20 * 1000);
+
+setInterval(function() {
+  document.querySelector('video').defaultPlaybackRate = 3.0;
+}, 1000);
 
